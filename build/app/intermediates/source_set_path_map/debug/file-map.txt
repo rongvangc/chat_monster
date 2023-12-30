@@ -1,0 +1,12 @@
+com.example.chat_monster.app-jetified-window-java-1.0.0-beta04-0 C:\Users\Shyn\.gradle\caches\transforms-3\1019fd8b46cdef0a46e5025f27dbbaeb\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.chat_monster.app-core-1.6.0-1 C:\Users\Shyn\.gradle\caches\transforms-3\2ce523dc0a7c5502678667fc0020028d\transformed\core-1.6.0\res
+com.example.chat_monster.app-jetified-window-1.0.0-beta04-2 C:\Users\Shyn\.gradle\caches\transforms-3\3522d6b74be37cadbfcf43181c15f5f3\transformed\jetified-window-1.0.0-beta04\res
+com.example.chat_monster.app-jetified-annotation-experimental-1.1.0-3 C:\Users\Shyn\.gradle\caches\transforms-3\3bc74634b9ff8467c90f9b0e18fc6564\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.chat_monster.app-debug-4 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\android\app\src\debug\res
+com.example.chat_monster.app-main-5 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\android\app\src\main\res
+com.example.chat_monster.app-pngs-6 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\build\app\generated\res\pngs\debug
+com.example.chat_monster.app-resValues-7 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\build\app\generated\res\resValues\debug
+com.example.chat_monster.app-rs-8 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\build\app\generated\res\rs\debug
+com.example.chat_monster.app-mergeDebugResources-9 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.chat_monster.app-mergeDebugResources-10 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.chat_monster.app-merged_res-11 C:\Users\Shyn\OneDrive\Desktop\App\chat_monster\build\app\intermediates\merged_res\debug

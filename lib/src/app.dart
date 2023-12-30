@@ -1,5 +1,8 @@
-import 'package:chat_monster/src/screens/login_screen.dart';
+import 'package:chat_monster/src/screens/homeScreen.dart';
+import 'package:chat_monster/src/screens/loginScreen.dart';
+import 'package:chat_monster/src/screens/registerScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -7,19 +10,35 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    final Color primaryColor = Color(0xFFF4A261);
+    final Color secondaryColor = Color(0xFF2A9D8F);
+
+    return GetMaterialApp(
       title: 'Chat Monster',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Quicksand",
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
-          primary: const Color(0xffE98259),
-          secondary: const Color(0xff2D3055),
-          error: const Color(0xffe63946),
+          seedColor: primaryColor,
+          primary: primaryColor,
+          secondary: secondaryColor,
+          surface: Colors.white,
+          background: Colors.white,
+          error: Colors.red,
+          onPrimary: Colors.white,
+          onSecondary: Colors.black,
+          onSurface: Colors.black,
+          onBackground: Colors.black,
+          onError: Colors.white,
           brightness: Brightness.light,
         ),
       ),
-      home: const LoginScreen(),
+      initialRoute: '/',
+      getPages: [
+        GetPage(name: '/', page: () => const HomeScreen()),
+        GetPage(name: '/login', page: () => const LoginScreen()),
+        GetPage(name: '/register', page: () => const RegisterScreen()),
+      ],
     );
   }
 }

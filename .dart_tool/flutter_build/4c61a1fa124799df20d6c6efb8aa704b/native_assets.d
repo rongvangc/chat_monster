@@ -1,0 +1,1 @@
+ C:\\Users\\Shyn\\OneDrive\\Desktop\\App\\chat_monster\\.dart_tool\\flutter_build\\4c61a1fa124799df20d6c6efb8aa704b\\native_assets.yaml: 
